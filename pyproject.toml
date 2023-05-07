@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bg-glue-benchmark"
+version = "1.0.0"
+description = "bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark"
+authors = ["bgGLUE Authors <bulgarianglue@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.20.1"
+datasets = "^2.3.2"
+torch = "^1.12.0"
+scikit-learn = "^1.1.1"
+seqeval = "^1.2.2"
+sentencepiece = "^0.1.96"
+protobuf = "^3.20"
+wandb = { version = "^0.12.21", optional = true }
+
+[tool.poetry.extras]
+wandb = ["wandb"]
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
