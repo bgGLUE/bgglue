@@ -516,24 +516,24 @@ Please cite as [[1]](https://arxiv.org/abs/2306.02349).
 
 ```
 @inproceedings{hardalov-etal-2023-bgglue,
-    title = "{bgGLUE}: A Bulgarian General Language Understanding Evaluation Benchmark",
-    author = "Hardalov, Momchil and 
-        Atanasova, Pepa and 
-        Mihaylov, Todor and 
-        Angelova, Galia and 
-        Simov, Kiril and 
-        Osenova, Petya and 
-        Stoyanov, Ves and 
-        Koychev, Ivan and 
-        Nakov, Preslav and 
-        Radev, Dragomir",
+    title = "bg{GLUE}: A {B}ulgarian General Language Understanding Evaluation Benchmark",
+    author = "Hardalov, Momchil  and
+      Atanasova, Pepa  and
+      Mihaylov, Todor  and
+      Angelova, Galia  and
+      Simov, Kiril  and
+      Osenova, Petya  and
+      Stoyanov, Veselin  and
+      Koychev, Ivan  and
+      Nakov, Preslav  and
+      Radev, Dragomir",
     booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = july,
+    month = jul,
     year = "2023",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
     address = "Toronto, Canada",
-    url = "https://arxiv.org/abs/2306.02349"
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.487",
+    pages = "8733--8759",
 }
 ```
 
